@@ -338,10 +338,10 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "自建后端后端【vless reality+hy1+hy2】": "http://mariocool.dpdns.org:25500",
+          "自建后端后端【vless reality+hy1+hy2】": "https://subapi.mariocool.dpdns.org",
         },
         backendOptions: [
-          { value: "http://mariocool.dpdns.org:25500" },
+          { value: "https://subapi.mariocool.dpdns.org" },
         ],
         remoteConfig: [
           {
@@ -1298,4 +1298,5 @@ export default {
   }
 };
 </script>
+
 
