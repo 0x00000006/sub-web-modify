@@ -766,7 +766,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://subapi.mariocool.dpdns.org" : this.getUrlParam(),
-        shortType: "/",
+        shortType: "不使用",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -1289,6 +1289,7 @@ export default {
   }
 };
 </script>
+
 
 
 
